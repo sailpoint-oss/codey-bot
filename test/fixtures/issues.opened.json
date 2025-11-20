@@ -1,0 +1,26 @@
+{
+	"action": "opened",
+	"issue": {
+		"number": 1,
+		"title": "Valid Issue",
+		"body": "This is a valid issue body with enough content.",
+		"author_association": "FIRST_TIMER",
+		"user": {
+			"login": "hiimbex",
+			"created_at": "2020-01-01T00:00:00Z"
+		}
+	},
+	"repository": {
+		"name": "testing-things",
+		"owner": {
+			"login": "hiimbex"
+		}
+	},
+	"sender": {
+		"login": "hiimbex",
+		"created_at": "2020-01-01T00:00:00Z"
+	},
+	"installation": {
+		"id": 2
+	}
+}

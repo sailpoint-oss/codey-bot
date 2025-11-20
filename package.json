@@ -1,0 +1,42 @@
+{
+	"name": "Codey-Bot",
+	"version": "1.0.0",
+	"private": true,
+	"description": "An automated developer community helper",
+	"author": "Luke Hagar",
+	"license": "ISC",
+	"homepage": "https://github.com//",
+	"keywords": [
+		"probot",
+		"github",
+		"probot-app"
+	],
+	"scripts": {
+		"build": "tsc",
+		"start": "probot run ./lib/index.js",
+		"test": "vitest run",
+		"test:watch": "vitest",
+		"lint": "biome check",
+		"fix": "biome check --fix",
+		"format": "biome format --write"
+	},
+	"dependencies": {
+		"@types/fast-levenshtein": "^0.0.4",
+		"fast-levenshtein": "^3.0.0",
+		"probot": "^13.4.5"
+	},
+	"devDependencies": {
+		"@types/node": "^20.0.0",
+		"nock": "^14.0.5",
+		"smee-client": "^2.0.0",
+		"typescript": "^5.8.3",
+		"vitest": "^2.0.0"
+	},
+	"overrides": {
+		"@types/pg": "8.15.1"
+	},
+	"engines": {
+		"node": ">= 18"
+	},
+	"type": "module"
+}
